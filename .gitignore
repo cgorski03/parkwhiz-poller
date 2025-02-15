@@ -2,3 +2,4 @@
 *env*
 __pycache__
 responses/
+parkwhiz_data.json
