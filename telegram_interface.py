@@ -1,6 +1,8 @@
-import subprocess
 import telebot
-from env import BOT_TOKEN, CHAT_ID
+import os
+
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.environ.get("CHAT_ID")
 
 
 bot = telebot.TeleBot(BOT_TOKEN)
